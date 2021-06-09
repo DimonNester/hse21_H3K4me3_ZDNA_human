@@ -16,7 +16,7 @@
 ![alt text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/chip_seeker.zhunt.plotAnnoPie.png)
 
 ## Расположение пересечения гистоновой метки и участков стр-ры ДНК
-![alt text](hhttps://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/chip_seeker.H3K4me3_H1.intersect_with_zhunt.plotAnnoPie.png)
+![alt text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/chip_seeker.H3K4me3_H1.intersect_with_zhunt.plotAnnoPie.png)
 
 ##
 ![alt_text]()
