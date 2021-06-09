@@ -21,6 +21,6 @@
 ![alt text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/chip_seeker.H3K4me3_H1.intersect_with_zhunt.plotAnnoPie.png)
 
 ## GO-анализ
-### Количество уникальных генов –– 4027
+### Количество уникальных генов – 4027
 ### С пикамии удалось проассоциировать 5847
 ![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/GO_analysis.png)
