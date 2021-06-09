@@ -20,6 +20,9 @@
 ## Расположение участков стр-ры ДНК относительно аннотированных генов 
 ![alt text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/chip_seeker.zhunt.plotAnnoPie.png)
 
+## Гистограмма пиков пересечения аннотированных генов со вторичной структурой ДНК
+![alt text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/len_hist.H3K4me3_H1.intersect_with_zhunt.png)
+
 ## Расположение пересечения гистоновой метки и участков стр-ры ДНК
 ![alt text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/chip_seeker.H3K4me3_H1.intersect_with_zhunt.plotAnnoPie.png)
 
