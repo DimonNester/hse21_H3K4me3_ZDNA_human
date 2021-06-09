@@ -2,11 +2,12 @@
 source("lib.R")
 
 ###
-NAME <- 'zhunt'
+#NAME <- 'zhunt'
 #NAME <- 'H3K4me3_H1.ENCFF408FCY.hg19'
 #NAME <- 'H3K4me3_H1.ENCFF408FCY.hg38'
 #NAME <- 'H3K4me3_H1.ENCFF668YOE.hg19'
 #NAME <- 'H3K4me3_H1.ENCFF668YOE.hg38'
+NAME <- 'H3K4me3_H1.intersect_with_zhunt'
 
 ###
 
