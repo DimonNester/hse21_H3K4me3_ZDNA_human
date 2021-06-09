@@ -1,13 +1,12 @@
 # hse21_H3K4me3_ZDNA_human
 
 Сохраненная сессия в UCSC GenomeBrowser:  https://genome.ucsc.edu/s/danesterov/Project
-## Исходные пики до фильтрации
-![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/raw/master/images/len_hist.H3K4me3_H1.ENCFF668YOE.hg38.png)
-![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/raw/master/images/len_hist.H3K4me3_H1.ENCFF408FCY.hg38.png)
-## Пики после фильтрации
+## Исходные пики до фильтрации (с конвертированными координатами)
 ![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/raw/master/images/len_hist.H3K4me3_H1.ENCFF668YOE.hg19.png)
 ![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/raw/master/images/len_hist.H3K4me3_H1.ENCFF408FCY.hg19.png)
-
+## Пики после фильтрации
+![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/filter_peaks.H3K4me3_H1.ENCFF668YOE.hg19.filtered.hist.png)
+![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/blob/master/images/filter_peaks.H3K4me3_H1.ENCFF408FCY.hg19.filtered.hist.png)
 
 
 ##
