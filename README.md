@@ -1,13 +1,18 @@
 # hse21_H3K4me3_ZDNA_human
 
-Сохраненная сессия в UCSC GenomeBrowser:  http://genome.ucsc.edu/s/antonov/hse21_H3K4me3_ZDNA_human
+Сохраненная сессия в UCSC GenomeBrowser:  https://genome.ucsc.edu/s/danesterov/Project
+## Исходные пики до фильтрации
+![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/raw/master/images/len_hist.H3K4me3_H1.ENCFF668YOE.hg38.png)
+![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/raw/master/images/len_hist.H3K4me3_H1.ENCFF408FCY.hg38.png)
+## Пики после фильтрации
+![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/raw/master/images/len_hist.H3K4me3_H1.ENCFF668YOE.hg19.png)
+![alt_text](https://github.com/DimonNester/hse21_H3K4me3_ZDNA_human/raw/master/images/len_hist.H3K4me3_H1.ENCFF408FCY.hg19.png)
 
-## Конвертируем координаты с версии генома hg38 на hg19
-```
-wget https://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/hg38ToHg19.over.chain.gz
-liftOver   H3K4me3_A549.ENCFF832EOL.hg38.bed   hg38ToHg19.over.chain.gz   H3K4me3_A549.ENCFF832EOL.hg19.bed   H3K4me3_A549.ENCFF832EOL.unmapped.bed
-```
 
+
+##
+![alt_text]()
+![alt_text]()
 ## Расположение пиков гистоновой метки относительно аннотированных генов
 ![alt text](https://github.com/vanya-antonov/hse21_H3K4me3_ZDNA_human/raw/main/images/chip_seeker.H3K4me3_A549.ENCFF573MUH.hg19.filtered.plotAnnoPie.png)
 ![alt text](https://github.com/vanya-antonov/hse21_H3K4me3_ZDNA_human/raw/main/images/chip_seeker.H3K4me3_A549.ENCFF832EOL.hg19.filtered.plotAnnoPie.png)
