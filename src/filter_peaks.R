@@ -4,8 +4,8 @@ source('lib.R')
 ###
 
 
-# NAME <- 'H3K4me3_H1.ENCFF408FCY.hg19'
- NAME <- 'H3K4me3_H1.ENCFF668YOE.hg19'
+ NAME <- 'H3K4me3_H1.ENCFF408FCY.hg19'
+# NAME <- 'H3K4me3_H1.ENCFF668YOE.hg19'
 
 ###
 
@@ -19,7 +19,7 @@ ggplot(bed_df) +
   geom_histogram() +
   ggtitle(NAME, subtitle = sprintf('Number of peaks = %s', nrow(bed_df))) +
   theme_bw()
-ggsave(paste0('filter_peaks.', NAME, '.init.hist.pdf'), path = OUT_DIR)
+ggsave(paste0('filter_peaks.', NAME, '.init.hist.png'), path = OUT_DIR)
 
 
 ####
@@ -34,7 +34,7 @@ ggplot(bed_df) +
   geom_histogram() +
   ggtitle(NAME, subtitle = sprintf('Number of peaks = %s', nrow(bed_df))) +
   theme_bw()
-ggsave(paste0('filter_peaks.', NAME, '.filtered.hist.pdf'), path = OUT_DIR)
+ggsave(paste0('filter_peaks.', NAME, '.filtered.hist.png'), path = OUT_DIR)
 
 bed_df %>%
   select(-len) %>%

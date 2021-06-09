@@ -21,7 +21,7 @@ library(org.Hs.eg.db)
 
 ###
 
-peaks <- toGRanges(paste0(DATA_DIR, 'H3K4me3_A549.intersect_with_DeepZ.bed'), format="BED")
+peaks <- toGRanges(paste0(DATA_DIR, 'H3K4me3_H1.intersect_with_zhunt.bed'), format="BED")
 peaks[1:2]
 
 annoData <- toGRanges(TxDb.Hsapiens.UCSC.hg19.knownGene)
@@ -38,9 +38,9 @@ anno$symbol <- xget(anno$feature, org.Hs.egSYMBOL)
 data.frame(anno) %>% head()
 
 anno_df <- data.frame(anno)
-write.table(anno_df, file=paste0(DATA_DIR, 'H3K4me3_A549.intersect_with_DeepZ.genes.txt'),
+write.table(anno_df, file=paste0(DATA_DIR, 'H3K4me3_H1.intersect_with_zhunt.genes.txt'),
             col.names = TRUE, row.names = FALSE, sep = '\t', quote = FALSE)
 
 uniq_genes_df <- unique(anno_df['symbol'])
-write.table(uniq_genes_df, file=paste0(DATA_DIR, 'H3K4me3_A549.intersect_with_DeepZ.genes_uniq.txt'),
+write.table(uniq_genes_df, file=paste0(DATA_DIR, 'H3K4me3_H1.intersect_with_zhunt.genes_uniq.txt'),
             col.names = FALSE, row.names = FALSE, sep = '\t', quote = FALSE)
